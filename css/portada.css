@@ -1,0 +1,81 @@
+.portada {
+    /* height: 100vh; */
+    padding-top: 80px;
+    color: #0e0e0e;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    height: 100vh;
+
+}
+
+.portadatitulo {
+    font-size: 70px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.portadasubtitulo {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+
+
+.portada>hr {
+    width: 80px;
+    border-top: 1px solid #0e0e0e;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin: auto;
+}
+
+.slogan {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 120px;
+    /* font-family: 'Noto Serif TC', serif; */
+    /* font-family: 'Source Serif Pro', serif; */
+}
+
+
+@media(min-width: 950px) {
+
+    .portada {
+        /* height: 100vh; */
+        padding-top: 140px;
+        color: #0e0e0e;
+        text-align: center;
+        font-family: 'Cinzel', serif;
+
+    }
+
+    .portadatitulo {
+        font-size: 80px;
+        font-weight: 400;
+        margin-top: 50px;
+        margin-bottom: 8px;
+    }
+
+    .portadasubtitulo {
+        font-size: 30px;
+        font-weight: 300;
+        margin-top: 15px;
+    }
+
+
+
+    .portada>hr {
+        border-top: 2px solid #0e0e0e;
+    }
+
+    .slogan {
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 100px;
+        /* font-family: 'Noto Serif TC', serif; */
+        /* font-family: 'Source Serif Pro', serif; */
+    }
+}

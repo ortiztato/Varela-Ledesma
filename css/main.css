@@ -14,7 +14,7 @@ html {
 
 :root {
   --basecolor: rgb(0, 0, 0);
-  --complementcolor: #ffe500;
+  --complementcolor: rgb(5, 5, 5);
   --whitetext: rgb(240, 240, 240);
   --blacktext: rgb(5, 5, 5);
   --navbar-shallow-color: #e5e5e5;
@@ -39,6 +39,7 @@ body {
   color: var(--blacktext);
   /* padding-top: 70px; */
   display: flex;
+  justify-items: center;
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
