@@ -2,8 +2,8 @@ const menu = document.querySelector(".menu");
 const openMenuBtn = document.querySelector(".open-menu");
 const closeMenuBtn = document.querySelector(".close-menu");
 const contactbtn = document.querySelector("#contactbtn");
-const galeriabtn = document.querySelector("#galeriabtn");
-const cateringbtn = document.querySelector("#cateringbtn");
+const sociosbtn = document.querySelector("#sociosbtn");
+const areasbtn = document.querySelector("#areasbtn");
 
 
 function toggleMenu() {
@@ -13,6 +13,6 @@ function toggleMenu() {
 openMenuBtn.addEventListener("click", toggleMenu);
 closeMenuBtn.addEventListener("click", toggleMenu);
 contactbtn.addEventListener("click", toggleMenu);
-galeriabtn.addEventListener("click", toggleMenu);
-cateringbtn.addEventListener("click", toggleMenu);
+sociosbtn.addEventListener("click", toggleMenu);
+areasbtn.addEventListener("click", toggleMenu);
 
