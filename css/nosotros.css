@@ -1,0 +1,65 @@
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.pnosotros {
+    max-width: 500px;
+    margin-bottom: 14px;
+    font-weight: 400;
+}
+
+.pnosotros>br {
+    margin: 3px;
+}
+
+.nosotrostitle {
+    margin-bottom: 20px;
+    font-size: 46px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+}
+
+.imgnosotros {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 2%;
+    /*  margin-top: 30px; */
+}
+
+.spanimgnosotros {
+    /* position: relative; */
+    align-self: center;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+@media (min-width: 950px) {
+    .nosotros {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 80px;
+        text-align: left;
+    }
+
+    .imgnosotros {
+        width: 90%;
+
+    }
+
+    .spanimgnosotros {
+        position: relative;
+        align-self: center;
+        text-align: center;
+        margin-top: 15px;
+
+    }
+
+
+}
