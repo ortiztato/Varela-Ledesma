@@ -68,7 +68,7 @@
   font-weight: 300;
   font-size: 14x;
   margin-top: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 
 }
 
@@ -93,6 +93,7 @@
   max-width: 300px;
   border-radius: 5%;
   box-shadow: 0 4px 10px #0000001d;
+  margin-top: 20px;
 
 }
 

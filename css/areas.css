@@ -3,6 +3,7 @@
     text-align: center;
     color: #0e0e0e;
     padding-top: 60px;
+    min-height: 100vh;
 }
 
 
@@ -41,14 +42,14 @@
     justify-content: center;
     align-content: center;
 
-    padding: 0 20px 20px 20px;
+    padding: 10px 20px 20px 30px;
 
 
 }
 
 
 .griddiv h1 {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     font-family: 'Cinzel', serif;
     font-weight: 200;
 }
@@ -61,7 +62,7 @@
 }
 
 .griddiv hr {
-    width: 70%;
+    width: 30%;
     border-top: 1px solid #0e0e0e;
     border-bottom: 0px;
     border-left: 0px;
@@ -97,11 +98,17 @@
 
 @media(min-width: 950px) {
 
+    .areas {
+
+        padding-top: 100px;
+
+    }
+
     .areastitulo {
         font-family: 'Cinzel', serif;
         font-size: 40px;
         font-weight: 500;
-        margin-bottom: 40px;
+        margin-bottom: 80px;
         margin-top: 30px;
     }
 
@@ -135,6 +142,12 @@
         padding: 0 0px 20px 20px;
 
 
+    }
+
+    .griddiv h1 {
+        margin-bottom: 00px;
+        font-family: 'Cinzel', serif;
+        font-weight: 200;
     }
 
     .griddiv p {
