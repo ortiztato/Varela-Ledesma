@@ -5,6 +5,7 @@ const contactbtn = document.querySelector("#contactbtn");
 const sociosbtn = document.querySelector("#sociosbtn");
 const areasbtn = document.querySelector("#areasbtn");
 const estudiobtn = document.querySelector("#estudiobtn");
+const logomenubtn = document.querySelector("#logomenubtn");
 
 
 function toggleMenu() {
@@ -17,4 +18,5 @@ contactbtn.addEventListener("click", toggleMenu);
 sociosbtn.addEventListener("click", toggleMenu);
 areasbtn.addEventListener("click", toggleMenu);
 estudiobtn.addEventListener("click", toggleMenu);
+logomenubtn.addEventListener("click", toggleMenu);
 

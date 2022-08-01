@@ -89,7 +89,16 @@
   font-size: 30px;
 }
 
+#logomenubtn {
+  display: none;
+}
+
 @media (max-width: 950px) {
+
+  #logomenubtn {
+    display: block;
+    font-size: 35px;
+  }
 
   /* Menu */
   .menu {
