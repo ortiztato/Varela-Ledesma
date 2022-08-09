@@ -9,6 +9,8 @@ window.onscroll = () => {
         const burgerbtn = document.querySelector("#burgerbtn");
         const estudiobtn = document.querySelector("#estudiobtn");
         const logo = document.querySelector(".logotype");
+        const logosonscroll = document.querySelector(".logotypeonscroll");
+        const logotype = document.querySelector(".logotype");
 
 
         if (window.scrollY >= window.innerHeight - 100) {
@@ -20,6 +22,8 @@ window.onscroll = () => {
             estudiobtn.style.color = '#f5f5f5';
             logo.style.color = '#f5f5f5';
             burgerbtn.fill = '#f5f5f5';
+            logosonscroll.style.cssText = "display: inline";
+            logotype.style.cssText = "display: none";
         }
 
 
@@ -32,6 +36,8 @@ window.onscroll = () => {
             estudiobtn.style.color = '#1d1d1d';
             logo.style.color = '#1d1d1d';
             burgerbtn.fill = '#1d1d1d';
+            logosonscroll.style.cssText = "display: none";
+            logotype.style.cssText = "display: none";
         }
 
     }

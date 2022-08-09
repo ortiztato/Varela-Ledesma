@@ -13,6 +13,7 @@
     font-weight: 400;
     margin-top: 20px;
     margin-bottom: 8px;
+    /* max-width: 100%; */
 }
 
 .portadasubtitulo {
@@ -25,11 +26,13 @@
 
 .portada>hr {
     width: 320px;
+    max-width: 80vw;
     border-top: 1px solid #0e0e0e;
     border-bottom: 0px;
     border-left: 0px;
     border-right: 0px;
     margin: auto;
+
 }
 
 .slogan {
@@ -85,4 +88,25 @@
         /* font-family: 'Noto Serif TC', serif; */
         /* font-family: 'Source Serif Pro', serif; */
     }
+}
+
+@media(max-width: 400px) {
+    .portada {
+        /* height: 100vh; */
+        padding-top: 50px;
+        color: #0e0e0e;
+        text-align: center;
+        font-family: 'Cinzel', serif;
+        height: 100vh;
+
+    }
+
+    .slogan {
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 60px;
+        /* font-family: 'Noto Serif TC', serif; */
+        /* font-family: 'Source Serif Pro', serif; */
+    }
+
 }

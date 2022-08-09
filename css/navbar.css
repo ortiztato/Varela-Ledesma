@@ -83,7 +83,8 @@
 }
 
 .logotype {
-  display: flex;
+  /* display: flex; */
+  display: none;
   justify-content: center;
   font-weight: 300;
   font-size: 30px;
@@ -91,6 +92,11 @@
 
 #logomenubtn {
   display: none;
+}
+
+.logotypeonscroll {
+  display: none;
+
 }
 
 @media (max-width: 950px) {
