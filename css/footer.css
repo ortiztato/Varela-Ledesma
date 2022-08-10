@@ -19,6 +19,7 @@
 
 @media(min-width: 950px) {
   #footer {
+    display: none;
     height: 18vh;
 
   }
