@@ -42,11 +42,15 @@
 }
 
 .slogan {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 400;
-    margin-top: 25vh;
+    margin-top: 15vh;
     /* font-family: 'Noto Serif TC', serif; */
     /* font-family: 'Source Serif Pro', serif; */
+}
+
+.slogan br {
+    margin: 0;
 }
 
 
@@ -97,20 +101,9 @@
 }
 
 @media(max-width: 400px) {
-    .portada {
-        /* height: 100vh; */
-        padding-top: 50px;
-        color: #0e0e0e;
-        text-align: center;
-        font-family: 'Cinzel', serif;
-        height: 100vh;
-
-    }
 
     .slogan {
-        font-size: 18px;
-        /* font-family: 'Noto Serif TC', serif; */
-        /* font-family: 'Source Serif Pro', serif; */
+        margin-top: 10vh;
     }
 
 }
