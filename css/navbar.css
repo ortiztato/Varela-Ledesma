@@ -94,10 +94,20 @@
   display: none;
 }
 
-.logotypeonscroll {
+.logotypescrollwhite {
   display: none;
 
 }
+
+.logotypescrollblack {
+  height: 50px;
+}
+
+.logotypescrollwhite {
+  height: 50px;
+}
+
+
 
 @media (max-width: 950px) {
 
@@ -164,4 +174,17 @@
   .menu a.selected {
     color: var(--complementcolor);
   }
+
+  .logotypescrollblack {
+    height: 35px;
+  }
+
+  .logotypescrollwhite {
+    height: 35px;
+  }
+
+  #burgerbtnwhite {
+    display: none;
+  }
+
 }

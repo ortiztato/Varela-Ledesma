@@ -6,8 +6,8 @@
     font-family: 'Cinzel', serif;
     height: 100vh;
     background-image: linear-gradient(0deg,
-            rgba(255, 255, 255, 0.5),
-            rgba(255, 255, 255, 0.5)), url("img/portada1.jpg");
+            rgba(255, 255, 255, 0.2),
+            rgba(255, 255, 255, 0.2)), url("img/portada1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0% 30%;
@@ -44,7 +44,7 @@
 .slogan {
     font-size: 20px;
     font-weight: 400;
-    margin-top: 120px;
+    margin-top: 30vh;
     /* font-family: 'Noto Serif TC', serif; */
     /* font-family: 'Source Serif Pro', serif; */
 }
@@ -88,9 +88,9 @@
 
 
     .slogan {
-        font-size: 18px;
+        font-size: 34px;
         font-weight: 400;
-        margin-top: 80px;
+        margin-top: 130px;
         /* font-family: 'Noto Serif TC', serif; */
         /* font-family: 'Source Serif Pro', serif; */
     }
@@ -108,9 +108,7 @@
     }
 
     .slogan {
-        font-size: 20px;
-        font-weight: 400;
-        margin-top: 60px;
+        font-size: 18px;
         /* font-family: 'Noto Serif TC', serif; */
         /* font-family: 'Source Serif Pro', serif; */
     }
