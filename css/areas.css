@@ -101,6 +101,7 @@
     .areas {
 
         padding-top: 100px;
+        min-height: 0vh;
 
     }
 
