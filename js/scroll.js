@@ -1,4 +1,4 @@
-
+// script to change nav css styles on scroll
 
 window.onscroll = () => {
     if (window.innerWidth >= 950) {
